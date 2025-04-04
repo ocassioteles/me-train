@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ExerciseListComponent } from './exercise-list.component';
+import { ProgressoChartComponent } from './progresso-chart.component';
 
-describe('ExerciseListComponent', () => {
-  let component: ExerciseListComponent;
-  let fixture: ComponentFixture<ExerciseListComponent>;
+describe('ProgressoChartComponent', () => {
+  let component: ProgressoChartComponent;
+  let fixture: ComponentFixture<ProgressoChartComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ ExerciseListComponent ]
+      declarations: [ ProgressoChartComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(ExerciseListComponent);
+    fixture = TestBed.createComponent(ProgressoChartComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

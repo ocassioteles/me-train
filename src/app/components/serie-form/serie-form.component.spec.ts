@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { SeriesDetailComponent } from './series-detail.component';
+import { SerieFormComponent } from './serie-form.component';
 
-describe('SeriesDetailComponent', () => {
-  let component: SeriesDetailComponent;
-  let fixture: ComponentFixture<SeriesDetailComponent>;
+describe('SerieFormComponent', () => {
+  let component: SerieFormComponent;
+  let fixture: ComponentFixture<SerieFormComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ SeriesDetailComponent ]
+      declarations: [ SerieFormComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(SeriesDetailComponent);
+    fixture = TestBed.createComponent(SerieFormComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
